@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JoacoTours</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header>
+    <div class="logo-group">
+        <img src="assets/mapicon/logo-light-transparent.png" alt="Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+        <img src="assets/terranoicon/terranoicon5.png" alt="Logo" style="height: 60px; vertical-align: middle; margin-right: 20px;">
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li>
+            <a href="https://wa.me/549XXXXXXXXXX" target="_blank">
+              <img src="assets/whatsapp.png" alt="WhatsApp" style="height: 40px; vertical-align: middle; margin-left: 10px;">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tu_usuario" target="_blank">
+              <img src="assets/instagram (1).png" alt="Instagram" style="height: 40px; vertical-align: middle; margin-left: 20px;">
+            </a>
+          </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Galería -->
+    <section class="slider">
+
+        <!-- Imagen 1 -->
+        <div class="slide" id="slide1">
+            <img src="assets/foto1.jpg" alt="Excursión 1">
+            <a href="#slide3" class="prev">❮</a>
+            <a href="#slide2" class="next">❯</a>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="slide" id="slide2">
+            <img src="assets/foto2.jpg" alt="Excursión 2">
+            <a href="#slide1" class="prev">❮</a>
+            <a href="#slide3" class="next">❯</a>
+        </div>
+
+        <!-- Imagen 3 -->
+        <div class="slide" id="slide3">
+            <img src="assets/foto3.jpg" alt="Excursión 3">
+            <a href="#slide2" class="prev">❮</a>
+            <a href="#slide1" class="next">❯</a>
+        </div>
+        <script>
+            if (!location.hash) location.hash = "#slide1";
+        </script>
+    </section>
+
+
+  <!--<section id="gallery">
+    <h2>Galería</h2>
+    <div class="gallery-grid">
+      <img src="assets/foto1.jpg" alt="Excursión 1">
+      <img src="assets/foto2.jpg" alt="Excursión 2">
+      <img src="assets/foto3.jpg" alt="Excursión 3">
+      <img src="assets/foto4.jpg" alt="Excursión 4">
+      <img src="assets/foto5.jpg" alt="Excursión 5">
+      <img src="assets/foto6.jpg" alt="Excursión 6">
+    </div>
+  </section> -->
+
+  <!-- About -->
+  <section id="about">
+    <h2 style="text-align: center; font-size: 1rem; color: white;">About Us</h2>
+    <div class="hero-text">
+        <p>Somos una agencia de excursiones enfocada en experiencias únicas a lo largo de la costa de Río Negro. Nuestro equipo está formado por guías expertos en turismo responsable y fotografía profesional.</p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <footer>
+    <h2 style="text-align: center; font-size: 1rem; color: white;">Contacto</h2>
+    <img src="assets/whatsapp.png" alt="Logo" style="height: 40px; vertical-align: middle; margin-left: 10px;">
+    <img src="assets/instagram (1).png" alt="Logo" style="height: 40px; vertical-align: middle; margin-left: 20px;">
+    <p><br>Seguinos en redes sociales o escribinos por WhatsApp.</p>
+    <p>© 2025 JoacoTours</p>
+  </footer>
+</body>
+</html>
